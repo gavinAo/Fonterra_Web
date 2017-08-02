@@ -79,14 +79,14 @@
 				{
 					"pattern": "creat",
 					"name": "application",
-					"target": "main"
+					"target": "Create"
 				}
 			],
 			"targets": {
-				"main": {
+				"Create": {
 					"viewPath": "sap.fonterra.view",
-					"viewName": "Main",
-					"viewId": "nisshaViewMain",
+					"viewName": "Create",
+					"viewId": "fonterraViewMain",
 					"controlAggregation": "pages",
 					"viewLevel": 1
 				},
