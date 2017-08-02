@@ -77,8 +77,8 @@
 			},
 			"routes": [
 				{
-					"pattern": "creat",
-					"name": "application",
+					"pattern": "create",
+					"name": "create",
 					"target": "Create"
 				}
 			],

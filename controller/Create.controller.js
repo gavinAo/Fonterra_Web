@@ -4,7 +4,7 @@
 sap.ui.define(["sap/fonterra/controller/BaseController"],function(BaseController){
 	"use strict";
 
-	return BaseController.extend("sap.fonterra.Create",{
+	return BaseController.extend("sap.fonterra.controller.Create",{
 		/**
 		 * @function
 		 * @name onInit
@@ -13,7 +13,7 @@ sap.ui.define(["sap/fonterra/controller/BaseController"],function(BaseController
 		 */
 		onInit:function(){
 			var oRouter = this.getRouter();
-			oRouter.getRoute("creat").attachRouteMatched(this._onRouteMatched, this);
+			oRouter.getRoute("create").attachMatched(this._onRouteMatched, this);
 		},
 		/**
 		 * @function
@@ -42,5 +42,5 @@ sap.ui.define(["sap/fonterra/controller/BaseController"],function(BaseController
 		 onAfterRendering:function(){
 
 		 }  
-	})
-})
+	});
+});
