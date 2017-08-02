@@ -59,12 +59,8 @@
 			}
 		},
 		"resources": {
-			"css": [
-
-			],
-			"js": [
-
-			]
+			"css": [],
+			"js": []
 		},
 		"routing": {
 			"config": {
@@ -77,7 +73,7 @@
 			},
 			"routes": [
 				{
-					"pattern": "create",
+					"pattern": "",
 					"name": "create",
 					"target": "Create"
 				}
@@ -98,5 +94,9 @@
 				}
 			}
 		}
+	},
+	"sap.platform.hcp": {
+		"uri": "",
+		"_version": "1.1.0"
 	}
 }

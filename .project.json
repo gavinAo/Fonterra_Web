@@ -1,0 +1,12 @@
+{
+  "basevalidator": {
+    "services": {
+      "js": "jsValidator"
+    }
+  },
+  "hcpdeploy": {
+    "account": "cca8ce455",
+    "name": "fonterraweb",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}
